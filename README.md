@@ -1,70 +1,93 @@
-# 🎓 RNSIT Student Assistant Chatbot
+# Mini Projects Repository
 
-A simple Python-based chatbot designed to help RNSIT students access common college information quickly through a conversational interface.
+This repository contains a collection of beginner-level Python mini projects built for learning and practicing core programming concepts such as logic building, string manipulation, and basic application development. These projects were developed during my initial days of college, specifically in Semester 1.
 
-## Features
+---
 
-* College and class timings
-* Attendance information
-* Exam and result queries
-* Timetable guidance
-* Library and canteen information
+## Projects Included
+
+### College Student Chatbot (RNSIT)
+
+A rule-based chatbot designed for students of RNS Institute of Technology. It provides quick responses to common college-related queries such as:
+
+* College timings
+* Attendance rules
+* Exam information
 * Department locations
-* Hostel rules and curfew timings
-* Fee and scholarship information
-* Events, clubs, and sports information
-* Faculty and HOD guidance
+* Hostel rules and facilities
+* Campus services and events
+
+The chatbot works using keyword matching and predefined responses to simulate a simple conversational assistant.
+
+---
+
+### Password Strength Checker
+
+A Python program that evaluates the strength of a password based on standard security rules such as:
+
+* Minimum length requirement
+* Use of uppercase and lowercase letters
+* Inclusion of numbers
+* Inclusion of special characters
+
+It classifies passwords as Weak, Medium, or Strong, helping users understand basic cybersecurity principles.
+
+---
 
 ## Technologies Used
 
-* Python
-* Dictionaries for storing responses
-* Random module for varied replies
+* Python 3
+* Conditional statements
+* Loops
+* String handling
+* Dictionaries (for chatbot project)
 
-## How It Works
+---
 
-The chatbot uses keyword matching to identify the user's query and returns an appropriate predefined response. If no matching keyword is found, it provides a fallback response.
+## How to Run
 
-## Installation
-
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone <repository-link>
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the project folder
 
 ```bash
-cd rnsit-student-chatbot
+cd mini-projects
 ```
 
-3. Run the program:
+3. Run the required file
 
 ```bash
 python chatbot.py
 ```
 
-## Example
+or
 
-**User:** Where is the library?
+```bash
+python password_checker.py
+```
 
-**Bot:** Library is located next to the canteen.
+---
 
-**User:** How do I check attendance?
+## Purpose of the Repository
 
-**Bot:** Login to the ERP → Dashboard → Attendance.
+* Practice basic Python programming
+* Improve logical thinking and problem-solving skills
+* Build foundational coding experience during Semester 1
+* Develop simple real-world inspired applications
 
-## Future Improvements
-
-* AI-powered natural language processing
-* Voice-based interaction
-* ERP integration
-* Real-time college updates
-* Mobile application support
-* Multilingual support
+---
 
 ## Authors
 
 * Ananya P N
 * Amrutha Kulkarni
+
+---
+
+## License
+
+This repository is intended for educational purposes only.
